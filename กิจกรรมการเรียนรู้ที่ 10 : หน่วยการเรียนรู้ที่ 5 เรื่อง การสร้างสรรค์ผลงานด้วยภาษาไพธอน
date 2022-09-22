@@ -1,0 +1,10 @@
+print("Total money program")
+print()
+print("Enter the amount by type")
+tens = int(input("coin 10 have a number:"))
+twenties = int(input("bank 20 have a number:"))
+fifties = int(input("bank 50 have a number:"))
+hundreds = int(input("bank 100 have a number:"))
+total = tens*10 + twenties*20 + fifties*50 + hundreds*100
+print()
+print("have all the money",total)
